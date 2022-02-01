@@ -1,6 +1,2 @@
-
-self.addEventListener('fetch', event =>{
-    
-    event.responWith(fetch(event.request));
-
-});
+if(!self.define){let e,i={};const r=(r,n)=>(r=new URL(r+".js",n).href,i[r]||new Promise((i=>{if("document"in self){const e=document.createElement("script");e.src=r,e.onload=i,document.head.appendChild(e)}else e=r,importScripts(r),i()})).then((()=>{let e=i[r];if(!e)throw new Error(`Module ${r} didn’t register its module`);return e})));self.define=(n,s)=>{const t=e||("document"in self?document.currentScript.src:"")||location.href;if(i[t])return;let o={};const c=e=>r(e,t),d={module:{uri:t},exports:o,require:c};i[t]=Promise.all(n.map((e=>d[e]||c(e)))).then((e=>(s(...e),o)))}}define(["./workbox-7e023abc"],(function(e){"use strict";self.addEventListener("message",(e=>{e.data&&"SKIP_WAITING"===e.data.type&&self.skipWaiting()})),e.precacheAndRoute([{url:"image_icono.png",revision:"b99fe58d300a461ca2d4db3f534a43dc"},{url:"index.html",revision:"af9b05ea8df5ba0b2584151923359079"},{url:"manifest.json",revision:"2cc64ef6c4cdf2801065816cd447645e"},{url:"script.js",revision:"d41d8cd98f00b204e9800998ecf8427e"}],{ignoreURLParametersMatching:[/^utm_/,/^fbclid$/]})}));
+//# sourceMappingURL=sw.js.map
