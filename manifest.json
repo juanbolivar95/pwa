@@ -1,18 +1,17 @@
 {
-    "name": "Mi primera PWA",
-    "short_name": "Mi primera PWA",
-    "theme_color": "#ffe88a",
-    "background_color": "#ffe88a",
-    "display": "standalone",
+    "name": "Deudas",
+    "short_name": "Deudas",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "fullscreen",
     "orientation": "portrait",
     "scope": "./",
     "start_url": "./",
-    "icon": [
+    "icons": [
         {
-            "src": "./image_icono.png",
+            "src": "image_icono.png",
             "type": "image/png",
-            "size": "512x512"
+            "sizes": "512x512"
         }
     ]
-
 }
